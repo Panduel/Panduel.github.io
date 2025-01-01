@@ -315,7 +315,7 @@ function tambahKeBelanja(produk) {
 // Fungsi untuk memperbarui total harga
 function updateTotalHarga() {
     const tabelRows = document.getElementById("tabelBelanja").getElementsByTagName("tbody")[0].rows;
-    let totalHarga = 0;
+    const totalHarga = 0;
 
     for (let i = 0; i < tabelRows.length; i++) {
         const totalPerBaris = parseFloat(tabelRows[i].cells[3].textContent.replace("Rp ", "").replace(",", ""));
