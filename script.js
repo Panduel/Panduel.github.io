@@ -13,7 +13,7 @@ const kategoriList = [
 
 // Daftar produk yang tersedia, sesuaikan nama dan harga produk di sini
 const produkList = [
-    { id: 1, nama: 'So Klin Lantai',harga: 10500,gambar: 'soklin lantai.jpg'}, 
+    { id: 1, nama: 'So Klin Lantai',harga: 10500,gambar: 'gmbr/soklin lantai.jpg'}, 
     { id: 2, nama: 'So Klin Bubuk Softergent 1,5kg', harga: 28000,gambar:'gmbr/soklin bubuk softergent 1,5kg.jpg' },  
     { id: 3, nama: 'So Klin Liquid', harga: 16000,gambar:'gmbr/soklin liquid.jpg'},  
     { id: 4, nama: 'So Klin Liquid Softergent',harga: 16000,gambar:'gmbr/soklin softener.jpg' },
